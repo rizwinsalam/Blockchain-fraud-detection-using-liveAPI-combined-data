@@ -55,14 +55,14 @@ Time-based trends help detect unusual spikes potentially linked to fraud.
 Correlation analysis shows moderate correlation between transaction value and fraud occurrence.
 
 
-1️⃣ Fraud vs Normal Transactions
+         1️⃣ Fraud vs Normal Transactions
 
 <img width="562" height="467" alt="Fraud_normal" src="https://github.com/user-attachments/assets/b7353f5b-170c-4695-a578-2240bc101e93" />
 
 This bar chart compares the number of normal and fraudulent transactions detected. Out of 113 transactions, 94 (83%) are classified as normal (green), while only 19 (17%) are fraud (red). This shows that the majority of activity is legitimate, but a notable number of suspicious transactions are still detected.
 
 
-2️⃣ PCA v/s K-Means clustering 
+         2️⃣ PCA v/s K-Means clustering 
 
 <img width="790" height="590" alt="pca_kmeans" src="https://github.com/user-attachments/assets/72b186ba-f77d-4719-91be-e49698863dcd" />
 
@@ -79,7 +79,7 @@ Clustering and anomaly tagging using PCA and KMeans successfully separate normal
 The cluster with the highest concentration of anomalies corresponds to high-value transfers, confirming that clustering is an effective tool for identifying fraudulent activity.
 
 
-3️⃣ Transaction Value Distribution
+         3️⃣ Transaction Value Distribution
 
 <img width="990" height="590" alt="distbtn_of_trnsctn_value" src="https://github.com/user-attachments/assets/e8169f4b-12c4-45a9-b477-51d4922c247e" />
 
@@ -92,13 +92,13 @@ This histogram displays the distribution of transaction values (in ETH) across a
 
 This skewed distribution is typical in cryptocurrency, where most transfers are small, but a few high-value transactions dominate the total volume. The histogram makes it easy to see both the common small transactions and the rare, very large ones.
 
-4️⃣ Top sender
+         4️⃣ Top sender
 <img width="989" height="590" alt="topsender" src="https://github.com/user-attachments/assets/940f2902-21d8-47e2-bf85-b0b6d31447fe" />
 
 This bar chart highlights the address that sent the most ETH in the dataset. The top sender is responsible for a disproportionately large share of total ETH sent.
 Top sender address: 0x742d35cc6634c0532925a3b844bc454e4438f44e. Total ETH sent by this address is 5000 ETH.
 
-5️⃣ Top Receiver
+         5️⃣ Top Receiver
 <img width="989" height="590" alt="topreceiver" src="https://github.com/user-attachments/assets/266cef63-d9ae-4a59-a5c7-50eb5285f119" />
 
 This bar chart displays the address that received the most ETH in the dataset. The top receiver stands out by accumulating a significant portion of the total ETH received.
@@ -107,7 +107,7 @@ Top receiver address: 0x742d35cc6634c0532925a3b844bc454e4438f44e. Total ETH rece
 Both Sender's and Receiver's concentration indicates that a small number of addresses (often called “whales”) have a significant influence on the network’s transaction flow. Such addresses may belong to exchanges, large traders, or entities conducting high-value transfers, and are important to monitor for both operational and fraud detection purposes.
 
 
-6️⃣ Monthly Transaction Trends:
+         6️⃣ Monthly Transaction Trends:
 
 Monthly Transaction Count (Unified)
 
@@ -126,13 +126,13 @@ Monthly Transaction Value with Anomaly Counts
 - Larger bubbles indicate that months with high transaction values also have more detected anomalies, suggesting a link between value 
 surges and suspicious activity.
 
-7️⃣ Scatter Plot: Gas vs Value
+         7️⃣ Scatter Plot: Gas vs Value
 
 <img width="989" height="590" alt="tarnsctn_value_vs_gasfee" src="https://github.com/user-attachments/assets/fccdc1aa-4859-45c7-9e98-a2e022f9375e" />
 
 This scatter plot shows the relationship between transaction value and gas fee. Most transactions are small and incur low gas fees, with no clear correlation between the two. Some very large transactions are visible, but they do not necessarily pay higher fees, suggesting fee optimization or network timing strategies.
 
-8️⃣ Correlation Heatmap
+         8️⃣ Correlation Heatmap
 
 <img width="483" height="390" alt="heatmap" src="https://github.com/user-attachments/assets/b1ebeb4e-1fab-4621-a0c8-dfd82e00c16e" />
 
@@ -141,7 +141,7 @@ This correlation heatmap shows the relationship between transaction value (value
 - The diagonal values are always 1, since each variable is perfectly correlated with itself.
 In other terms, these are essentially uncorrelated (correlation coefficient ≈ 0). This means that the amount of ETH transferred in a transaction does not predict the gas fee paid, indicating that users may optimize fees regardless of transaction size.
 
-9️⃣ Share of Total ETH: Fraud vs Normal
+         9️⃣ Share of Total ETH: Fraud vs Normal
 
 <img width="481" height="504" alt="block_pie" src="https://github.com/user-attachments/assets/c1ea4c12-3de0-4814-ba98-2e04a8f6e5cb" />
 
