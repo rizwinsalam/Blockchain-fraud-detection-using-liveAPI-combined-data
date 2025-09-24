@@ -52,7 +52,12 @@ PCA
 <img width="990" height="590" alt="distbtn_of_trnsctn_value" src="https://github.com/user-attachments/assets/e8169f4b-12c4-45a9-b477-51d4922c247e" />
 
 
-5️⃣ Fraud Share by Value
+5️⃣ Top sender
+<img width="989" height="590" alt="topsender" src="https://github.com/user-attachments/assets/940f2902-21d8-47e2-bf85-b0b6d31447fe" />
+
+Top Receiver
+<img width="989" height="590" alt="topreceiver" src="https://github.com/user-attachments/assets/266cef63-d9ae-4a59-a5c7-50eb5285f119" />
+
 
 6️⃣ Monthly Transaction Trends
 <img width="988" height="547" alt="monthlytrnsctncounts" src="https://github.com/user-attachments/assets/e3bbeec5-0da0-4fb7-97df-d3cf72627d5a" />
