@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ================================
-# Unified data loader (API/CSV/BOTH)
-# ================================
 import os
 import sys
 import pandas as pd
