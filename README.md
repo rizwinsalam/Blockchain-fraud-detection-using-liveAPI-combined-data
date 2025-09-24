@@ -37,26 +37,28 @@ Python (Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebook, optional MySQL in
 > is_fraud labels are *simulated* for demonstration purposes.
 ---
 📈 Exploratory Data Analysis (EDA)
+
 1️⃣ Fraud vs Normal Transactions
 
+<img width="562" height="467" alt="Fraud_normal" src="https://github.com/user-attachments/assets/b7353f5b-170c-4695-a578-2240bc101e93" />
 
+PCA
+<img width="790" height="590" alt="pca_kmeans" src="https://github.com/user-attachments/assets/72b186ba-f77d-4719-91be-e49698863dcd" />
 
-2️⃣ Top 10 channels
-
-
-3️⃣ Top 10 Receivers
+<img width="543" height="435" alt="PCA_Kmeans (2)" src="https://github.com/user-attachments/assets/bb853205-5d4a-4c88-8d60-af6387e0c4a7" />
 
 
 4️⃣ Transaction Value Distribution
+<img width="990" height="590" alt="distbtn_of_trnsctn_value" src="https://github.com/user-attachments/assets/e8169f4b-12c4-45a9-b477-51d4922c247e" />
 
 
 5️⃣ Fraud Share by Value
 
-
 6️⃣ Monthly Transaction Trends
-
-
+<img width="988" height="547" alt="monthlytrnsctncounts" src="https://github.com/user-attachments/assets/e3bbeec5-0da0-4fb7-97df-d3cf72627d5a" />
 
 7️⃣ Scatter Plot: Gas vs Value
-
+<img width="989" height="590" alt="tarnsctn_value_vs_gasfee" src="https://github.com/user-attachments/assets/fccdc1aa-4859-45c7-9e98-a2e022f9375e" />
 8️⃣ Correlation Heatmap
+<img width="483" height="390" alt="heatmap" src="https://github.com/user-attachments/assets/b1ebeb4e-1fab-4621-a0c8-dfd82e00c16e" />
+
