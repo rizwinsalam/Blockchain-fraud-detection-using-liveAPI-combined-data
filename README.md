@@ -1,4 +1,4 @@
- # 🚨 Blockchain Fraud Detection Project
+ # 🚨 Blockchain Fraud Detection 
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -24,7 +24,7 @@ Python (Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebook, optional MySQL in
 
 This project leverages advanced data analytics to investigate and detect fraudulent activity within Ethereum blockchain transactions. By integrating data from both API and CSV sources, we constructed a unified dataset capturing transaction values, gas fees, timestamps, and participant addresses. The analysis encompasses a wide range of techniques, including exploratory data analysis, statistical profiling, time series visualization, correlation analysis, and outlier detection.
 To uncover hidden patterns and suspicious behaviors, we applied machine learning methods such as Principal Component Analysis (PCA), KMeans clustering, and supervised classification models. These approaches enabled us to segment transaction behaviors, identify anomalies, and quantify the prevalence and impact of fraudulent activity. Visualizations including histograms, boxplots, scatter plots, heatmaps, and pie charts were used extensively to communicate findings and support data-driven decision making.
-Overall, this project demonstrates the power of combining statistical, visual, and machine learning techniques to gain actionable insights and enhance fraud detection in blockchain-based financial systems.
+Overall, this project demonstrates the power of combining statistical, visual, and machine learning techniques to gain actionable insights and enhance fraud detection in blockchain based financial systems.
 
 ## 📊 Dataset
 *Columns:*
