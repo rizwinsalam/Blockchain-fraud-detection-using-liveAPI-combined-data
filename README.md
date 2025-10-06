@@ -152,12 +152,12 @@ This pie chart illustrates the distribution of total ETH transferred in normal v
 The Isolation Forest model was applied to detect anomalies in Ethereum blockchain transactions.
 This isolates outliers based on unique transaction behavior (such as unusually high values, irregular timings, or rare address interactions).
 
-                      |     Metric    | Score |
+                      |   Metric      | Score |
                       | :-----------: | :---: |
-                      |  **Accuracy** | 0.835 |
-                      | **Precision** | 0.150 |
-                      |   **Recall**  | 0.158 |
-                      |  **F1 Score** | 0.154 |
+                      |   Accuracy    | 0.835 |
+                      |   Precision   | 0.150 |
+                      |   Recall      | 0.158 |
+                      |   F1 Score    | 0.154 |
 
 
 <img width="528" height="470" alt="models perfmnc evaltn confusion matrix" src="https://github.com/user-attachments/assets/0aea62dc-34d7-45b8-81c3-00155dcd6787" />
