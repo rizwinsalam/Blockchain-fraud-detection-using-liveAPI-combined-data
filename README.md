@@ -168,7 +168,7 @@ This isolates outliers based on unique transaction behavior (such as unusually h
 
 ## Interpretation:
 The model correctly classifies about 83.5% of transactions overall.
-Precision (15%) shows that about 1 in 6 flagged transactions were actual frauds — good for early anomaly spotting.
+Precision (15%) shows that about 1 in 6 flagged transactions were actual frauds; good for early anomaly spotting.
 Recall (15.8%) indicates moderate sensitivity; it's catching some but not all anomalies.
 The F1 score (15.4%) balances both and serves as a baseline for further tuning.
 
