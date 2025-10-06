@@ -147,6 +147,24 @@ In other terms, these are essentially uncorrelated (correlation coefficient ≈ 
 
 This pie chart illustrates the distribution of total ETH transferred in normal versus fraudulent transactions. The vast majority of ETH (96.7%) is moved through normal transactions (green), while only 3.3% is associated with fraud (red). This suggests that, although fraudulent transactions exist, they represent a small portion of the overall value transferred on the network.
 
+## 🧠 Model Evaluation – Isolation Forest
+
+The Isolation Forest model was applied to detect anomalies in Ethereum blockchain transactions.
+It works by isolating outliers based on unique transaction behavior (such as unusually high values, irregular timings, or rare address interactions).
+
+<img width="1059" height="947" alt="image" src="https://github.com/user-attachments/assets/cf6ff08f-9cd7-450c-b5e8-e1f99810e32a" />
+
+<img width="528" height="470" alt="models perfmnc evaltn confusion matrix" src="https://github.com/user-attachments/assets/0aea62dc-34d7-45b8-81c3-00155dcd6787" />
+
+<img width="536" height="374" alt="models performace metrics" src="https://github.com/user-attachments/assets/dafe4b40-0c57-47f8-b144-ed569dbc0235" />
+
+
+Interpretation:
+The model correctly classifies about 83.5% of transactions overall.
+Precision (15%) shows that about 1 in 6 flagged transactions were actual frauds — good for early anomaly spotting.
+Recall (15.8%) indicates moderate sensitivity; it's catching some but not all anomalies.
+The F1 score (15.4%) balances both and serves as a baseline for further tuning.
+
 
 All missing values were normalized and timestamps harmonized across both API and CSV sources. This thorough data cleaning ensures that the analysis is based on consistent and reliable data, supporting trustworthy and actionable insights. Many anomalies were detected outside standard business hours, indicating that suspicious transactions may be strategically timed to avoid detection or to take advantage of lower gas fees. This highlights the value of incorporating timing analysis as an additional layer in future fraud detection efforts.
 
